@@ -2,12 +2,13 @@ import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
+
 const projects = [
   {
     title: "Wayfarer",
     description:
       "AI powered travel assistant",
-    src: "rock.jpg",
+    src: "/images/wayfarer.png",
     link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
     color: "#5196fd",
     githubLink: "https://github.com/Naveen-Raj6/WayFarer",
@@ -16,7 +17,7 @@ const projects = [
   {
     title: "BroCode",
     description:"BroCode is code Sharing Platform and collaboration tool for developers and also a editor for developers",
-    src: "tree.jpg",
+    src: "/images/BroCode.png",
     link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
     color: "#8f89ff",
     githubLink: "https://github.com/Naveen-Raj6/BroCode",
@@ -26,12 +27,20 @@ const projects = [
     title: "Asta",
     description:
       "Asta is a AI powered chatbot for developers and learners",
-    src: "water.jpg",
+    src: "/images/wayfarer.png", // No Asta image found, using wayfarer as placeholder
     link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
     color: "#fff",
     githubLink: "https://github.com/Naveen-Raj6/ai-bot",
     // liveLink: "https://asta-bot.vercel.app/",
-  },
+  },{
+    title:"Expense Tracker",
+    description:" Vite React and Recharts built Expense tracker ",
+    src:"/images/ExpenseTracker.png",
+    link:"",
+    color:"#5196fd",
+    githubLink:"https://github.com/Naveen-Raj6/Expense-Tracker",
+    liveLink:"https://bro-expense-tracker.vercel.app",
+  }
 
 ];
 
