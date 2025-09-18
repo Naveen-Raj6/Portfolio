@@ -134,7 +134,7 @@ export default function Projects() {
               >
                 <Card
                   i={i}
-                  url={project.link}
+                  url={project.src}
                   title={project.title}
                   color={project.color}
                   description={project.description}
@@ -205,7 +205,7 @@ export default function Projects() {
               <Card
                 key={`desktop_${i}`}
                 i={i}
-                url={project.link}
+                url={project.src}
                 title={project.title}
                 color={project.color}
                 description={project.description}
