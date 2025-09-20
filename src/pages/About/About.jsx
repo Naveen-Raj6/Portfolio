@@ -39,7 +39,7 @@ export default function About() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         >
-          Developer, Designer, Full-Stack Enthusiast
+          Developer,Full-Stack Enthusiast
         </motion.h2>
 
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">

@@ -72,7 +72,7 @@ const profile = {
     title: 'Full-Stack Developer | Mern Enthusiast | Problem Solver',
     skills: [
         'React', 'Redux', 'Express',
-        'MySQL', 'MongoDB', Restful API,
+        'MySQL', 'MongoDB', 'Restful API',
         'Git', 'Linux', 'Node.js'
     ],
     hardWorker: true,

@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Hero from "../Hero/Hero";
-import About from "../About/About";
 
 const Home = () => {
   return (
@@ -23,7 +22,6 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.4, ease: "easeOut" }}
       >
-        <About />
       </motion.div>
     </motion.div>
   );

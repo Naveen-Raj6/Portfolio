@@ -13,6 +13,7 @@ import {
   FaLinux,
   FaFigma,
   FaAws,
+  FaBootstrap,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -27,9 +28,12 @@ import {
   SiFirebase,
   SiVercel,
   SiVite,
+  SiMui,
+  SiJavascript,
+  SiMysql,
 } from "react-icons/si";
 import { TbBrandVscode } from "react-icons/tb";
-import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
+import { BsFileEarmarkCode, BsFiletypeXml, BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
 import { FcWorkflow } from "react-icons/fc";
 
@@ -147,13 +151,17 @@ const SkillsSection = () => {
       color: "text-blue-400",
       skills: [
         { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
+        // {
+        //   name: "Next.js",
+        //   icon: <SiNextdotjs className="w-4 h-4 text-white" />,
+        // },
+        // {
+        //   name: "TypeScript",
+        //   icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
+        // },
         {
-          name: "Next.js",
-          icon: <SiNextdotjs className="w-4 h-4 text-white" />,
-        },
-        {
-          name: "TypeScript",
-          icon: <SiTypescript className="w-4 h-4 text-[#3178C6]" />,
+         name: "JavaScript",
+          icon: <SiJavascript className="w-4 h-4 text-[#3178C6]" />,
         },
         {
           name: "Tailwind CSS",
@@ -166,6 +174,19 @@ const SkillsSection = () => {
         {
           name: "CSS3",
           icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
+        },
+        {
+          name:"XML",
+          icon: <BsFiletypeXml className="w-4 h-4 text-[#007ACC]"/>
+        },
+         {
+          name:"Bootstrap",
+          icon: <FaBootstrap className="w-4 h-4 text-[#007ACC]" />
+        },
+        {
+          name:"Material UI",
+          icon: 
+        <SiMui className="w-4 h-4 text-[#007ACC]" />
         },
       ],
     },
@@ -195,8 +216,8 @@ const SkillsSection = () => {
           icon: <BsGrid1X2 className="w-4 h-4 text-[#FF6C37]" />,
         },
         {
-          name: "GraphQL",
-          icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
+          name: "MySQL",
+          icon: <SiMysql className="w-4 h-4 text-[#E10098]" />,
         },
       ],
     },
