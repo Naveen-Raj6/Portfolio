@@ -26,7 +26,7 @@ const projects = [
 • Integrated CodeMirror for in-browser live code editing.
 • WebSocket for real-time collaboration and instant preview.
 • Optimized UI for smooth coding across devices.`,
-    src: "/images/BroCode.png",
+    src: "/images/brocode.png",
     link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
     color: "#8f89ff",
     githubLink: "https://github.com/Naveen-Raj6/BroCode",
